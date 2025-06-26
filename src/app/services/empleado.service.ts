@@ -9,7 +9,8 @@ import { HttpClient, HttpErrorResponse, HttpHeaders, HttpResponse } from '@angul
 export class EmpleadoService {
 
   //Atributos
-  baseUri: string = 'http://localhost:4000/api';
+  //baseUri: string = 'http://localhost:4000/api';
+  baseUri: string = 'https://backendempleados.netlify.app/';
   headers = new HttpHeaders().set('Content-Type','application/json');
 
   constructor(private http:HttpClient) { }
