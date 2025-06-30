@@ -10,7 +10,7 @@ export class EmpleadoService {
 
   //Atributos
   //baseUri: string = 'http://localhost:4000/api';
-  baseUri: string = 'https://backendempleados.onrender.com';
+  baseUri: string = 'https://backendempleados.onrender.com/api';
   headers = new HttpHeaders().set('Content-Type','application/json');
 
   constructor(private http:HttpClient) { }
